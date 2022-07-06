@@ -14,7 +14,7 @@ import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
 
-    private val INTENTS = 60 * 3 + 1
+    private val INTENTS = 60 * 4 + 1
     private lateinit var binding: ActivityMainBinding
     private var digitsPressed = 0
     private var intents = INTENTS
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        binding.llReset.setOnClickListener{
+        binding.lldg5.setOnClickListener {
             intents = INTENTS
             this.number = resetNumber()
             binding.tvSolution.text = "$number"
@@ -230,7 +230,6 @@ class MainActivity : AppCompatActivity() {
             binding.dg5.setTextColor(getColor(R.color.teal_700))
             win = true
 
-            digitsPressed = 0
             number = resetNumber()
             binding.tvSolution.text = "$number"
 

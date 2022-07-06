@@ -397,172 +397,194 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/d1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d0"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
-                    android:text="0"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="1dp"
-                android:layout_marginEnd="1dp"
-                android:layout_weight=".10"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/d1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
+                    android:textColor="@color/white"
                     android:text="1"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/d2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d2"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
+                    android:textColor="@color/white"
                     android:text="2"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/d3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d3"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
+                    android:textColor="@color/white"
                     android:text="3"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/d4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d4"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
+                    android:textColor="@color/white"
                     android:text="4"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/d5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d5"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
+                    android:textColor="@color/white"
                     android:text="5"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/d6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d6"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
+                    android:textColor="@color/white"
                     android:text="6"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/d7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d7"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
+                    android:textColor="@color/white"
                     android:text="7"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/d8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d8"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
+                    android:textColor="@color/white"
                     android:text="8"
                     android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/d9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_weight=".10"
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:text="9"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/d0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:background="@drawable/btn_border">
 
-                <Button
-                    android:id="@+id/d9"
+                <TextView
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:backgroundTint="#3a3a3a"
-                    android:text="9"
+
+                    android:textColor="@color/white"
+                    android:text="0"
                     android:textSize="18sp" />
             </LinearLayout>
+
 
         </LinearLayout>
 
@@ -576,85 +598,135 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
-                    android:id="@+id/dg2"
+                <LinearLayout
+                    android:id="@+id/lldg3"
                     android:layout_width="50dp"
-                    android:layout_height="80dp"
+                    android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:backgroundTint="#3a3a3a"
-                    android:text="#"
-                    android:textSize="35sp"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_border"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/dg3"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintEnd_toStartOf="@+id/lldg4"
+                    app:layout_constraintTop_toTopOf="parent">
 
-                <Button
-                    android:id="@+id/dg1"
+                    <TextView
+                        android:id="@+id/dg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="#"
+                        android:textColor="@color/white"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lldg2"
                     android:layout_width="50dp"
-                    android:layout_height="80dp"
+                    android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:backgroundTint="#3a3a3a"
-                    android:text="#"
-                    android:textSize="35sp"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_border"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/dg2"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintEnd_toStartOf="@+id/lldg3"
+                    app:layout_constraintTop_toTopOf="parent" >
 
-                <Button
-                    android:id="@+id/dg0"
+                    <TextView
+                        android:id="@+id/dg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="#"
+                        android:textColor="@color/white"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lldg1"
                     android:layout_width="50dp"
-                    android:layout_height="80dp"
+                    android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:backgroundTint="#3a3a3a"
-                    android:text="#"
-                    android:textSize="35sp"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_border"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/dg1"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintEnd_toStartOf="@+id/lldg2"
+                    app:layout_constraintTop_toTopOf="parent">
 
-                <Button
-                    android:id="@+id/dg3"
+                    <TextView
+                        android:id="@+id/dg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="#"
+                        android:textColor="@color/white"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lldg4"
                     android:layout_width="50dp"
-                    android:layout_height="80dp"
+                    android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:backgroundTint="#3a3a3a"
-                    android:text="#"
-                    android:textSize="35sp"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_border"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/dg4"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintEnd_toStartOf="@+id/lldg5"
+                    app:layout_constraintTop_toTopOf="parent">
 
-                <Button
-                    android:id="@+id/dg4"
+                    <TextView
+                        android:id="@+id/dg4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="#"
+                        android:textColor="@color/white"
+                        android:textSize="35sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lldg5"
                     android:layout_width="50dp"
-                    android:layout_height="80dp"
-                    android:backgroundTint="#3a3a3a"
-                    android:text="#"
-                    android:textSize="35sp"
+                    android:layout_height="70dp"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/btn_border"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent" >
+
+                    <TextView
+                        android:id="@+id/dg5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="#"
+                        android:textColor="@color/white"
+                        android:textSize="35sp" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/tvCorrects"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
-                    android:text="5 CORRECTOS"
+                    android:text="- COR"
                     android:textColor="#a1f1a1"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toStartOf="@+id/lldg1"
+                    app:layout_constraintHorizontal_bias="0.05"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/dg0" />
+                    app:layout_constraintTop_toTopOf="@+id/lldg1" />
 
                 <TextView
                     android:id="@+id/tvPositioned"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
-                    android:text="5 POSICIONADOS"
+                    android:text="- POS"
                     android:textColor="#a1f1a1"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     app:layout_constraintBottom_toTopOf="@+id/tvIntents"
+                    app:layout_constraintEnd_toStartOf="@+id/lldg1"
+                    app:layout_constraintHorizontal_bias="0.05"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tvCorrects" />
 
@@ -663,10 +735,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
-                    android:text="5 INTENTOS"
+                    android:text="10 INT"
                     android:textColor="#F1A1a1"
-                    android:textSize="16sp"
-                    app:layout_constraintBottom_toBottomOf="@+id/dg0"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/lldg1"
+                    app:layout_constraintEnd_toStartOf="@+id/lldg1"
+                    app:layout_constraintHorizontal_bias="0.05"
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <TextView
@@ -676,9 +750,11 @@
                     android:text="19456"
                     android:textColor="@color/white"
                     android:textSize="10sp"
-                    app:layout_constraintBottom_toTopOf="@+id/dg2"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toTopOf="@+id/lldg3"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="@+id/dg0" />
+                    app:layout_constraintStart_toStartOf="@+id/lldg1"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -691,8 +767,9 @@
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
-        android:backgroundTint="#551a3a1a"
+        android:backgroundTint="#AA1a3a1a"
         android:text="Premio"
+        android:textColor="@color/text_selected"
         android:textSize="20sp"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"

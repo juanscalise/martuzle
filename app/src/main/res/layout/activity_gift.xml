@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a1a"
+    tools:context=".GiftActivity">
+
+
+    <TextView
+        android:id="@+id/tvLetter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Para una personita realmente bella:\n\n
+Bueno amor, quizás tras volverte loca con este desafío voy a tratar de justificar el esfuerzo intentando escribir algo valioso. \n\n
+Sea el momento que sea, independientemente del paso de los años, quiero que sepas que hoy 6/7/2022 eres una persona realmente amada con mucha ternura... que me pareces una persona increíble y me siento muy afortunado y agradecido. \n\n
+Tenemos nuestras cosas, como todos, pero lo que no todos tienen es la capacidad de darse cuenta lo que tienen frente a sus ojos cuando todavía no es tarde ♥\n\n
+Ojalá vos puedas leer y yo pueda escribir esto mismo en muchos años sin que nada haya cambiado, o mejor, que nos sorprendamos y que esto sea solo el comienzo de algo mucho más bello!\n\n
+Te amo mucho gorda hermosa!! Juan Sc"
+
+        android:textAlignment="center"
+        android:textColor="@color/text_selected"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/text_selected"
+        android:textColorHint="#515151"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/llShowLetter"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight=".10"
+        android:background="@drawable/btn_border"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/etPassword"
+        app:layout_constraintStart_toEndOf="@+id/etPassword"
+        app:layout_constraintTop_toTopOf="@+id/etPassword">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mantenimiento/AndroidStudioProjects/martuzle/app/src/main/res/drawable/btn_border.xml" value="0.1855" />
+        <entry key="..\:/Users/Mantenimiento/AndroidStudioProjects/martuzle/app/src/main/res/layout/activity_gift.xml" value="0.4" />
+        <entry key="..\:/Users/Mantenimiento/AndroidStudioProjects/martuzle/app/src/main/res/layout/activity_main.xml" value="0.2804232804232804" />
         <entry key="..\:/Users/juans/AndroidStudioProjects/Martuzle/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
@@ -12,5 +15,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2804232804232804" />
+      </ProjectState>
+    </option>
   </component>
 </project>

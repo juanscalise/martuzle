@@ -15,8 +15,8 @@ class GiftActivity : AppCompatActivity() {
         binding = ActivityGiftBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.llShowLetter.setOnClickListener{
-            if(binding.etPassword.text.toString() == "bebe")
+        binding.llShowLetter.setOnClickListener {
+            if (binding.etPassword.text.toString() == "bebe")
                 binding.tvLetter.visibility = View.VISIBLE
         }
     }

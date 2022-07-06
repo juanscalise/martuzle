@@ -402,15 +402,15 @@
                 android:layout_height="match_parent"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="1"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -421,15 +421,15 @@
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="2"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -440,15 +440,15 @@
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="3"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -459,15 +459,15 @@
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="4"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -478,15 +478,15 @@
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="5"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -497,15 +497,15 @@
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="6"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -516,15 +516,15 @@
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="7"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -535,15 +535,15 @@
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="8"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -554,15 +554,15 @@
                 android:layout_marginStart="1dp"
                 android:layout_marginEnd="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/white"
+                    android:gravity="center"
                     android:text="9"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -572,16 +572,16 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="1dp"
                 android:layout_weight=".10"
-                android:orientation="vertical"
-                android:background="@drawable/btn_border">
+                android:background="@drawable/btn_border"
+                android:orientation="vertical">
 
                 <TextView
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:gravity="center"
 
-                    android:textColor="@color/white"
                     android:text="0"
+                    android:textColor="@color/white"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -603,8 +603,8 @@
                     android:layout_width="50dp"
                     android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:orientation="vertical"
                     android:background="@drawable/btn_border"
+                    android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/lldg4"
                     app:layout_constraintTop_toTopOf="parent">
@@ -624,11 +624,11 @@
                     android:layout_width="50dp"
                     android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:orientation="vertical"
                     android:background="@drawable/btn_border"
+                    android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/lldg3"
-                    app:layout_constraintTop_toTopOf="parent" >
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
                         android:id="@+id/dg2"
@@ -645,8 +645,8 @@
                     android:layout_width="50dp"
                     android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:orientation="vertical"
                     android:background="@drawable/btn_border"
+                    android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/lldg2"
                     app:layout_constraintTop_toTopOf="parent">
@@ -666,8 +666,8 @@
                     android:layout_width="50dp"
                     android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:orientation="vertical"
                     android:background="@drawable/btn_border"
+                    android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/lldg5"
                     app:layout_constraintTop_toTopOf="parent">
@@ -687,11 +687,11 @@
                     android:layout_width="50dp"
                     android:layout_height="70dp"
                     android:layout_marginEnd="4dp"
-                    android:orientation="vertical"
                     android:background="@drawable/btn_border"
+                    android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" >
+                    app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
                         android:id="@+id/dg5"

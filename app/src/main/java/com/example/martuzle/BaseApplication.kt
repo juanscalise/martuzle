@@ -12,4 +12,6 @@ class BaseApplication: Application() {
         super.onCreate()
         prefs = Prefs(applicationContext)
     }
+
+
 }
